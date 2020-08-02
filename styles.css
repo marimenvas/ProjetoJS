@@ -1,0 +1,550 @@
+* { 
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif !important;
+}
+
+nav{
+    background-color: black;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul{
+    color:white;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+
+nav li{
+    margin-right:20px;
+}
+
+nav .minifoto{
+    width: 58px;
+    padding-left: 15%;
+}
+
+
+
+.mobile{
+    display:none;
+}
+
+.portada{
+    width: 100%;
+}
+
+.perfil{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.foto_perfil, .descripcion{
+    width: 35%;
+}
+
+
+.foto_perfil{
+    margin-top: -120px;
+}
+
+.foto{
+    max-width: 250px;
+    border-radius: 50%;
+    border: white 5px solid;
+    margin: auto 2em auto auto;
+}
+
+.foto img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.foto1{
+    border-radius:50%; 
+    margin: -40px 4em auto auto;
+    display:flex;
+    justify-content: space-around;
+    max-width: 200px;
+}
+
+h1{
+    color: #707070;
+    font-size: 55px;
+    font-style: bold;
+}
+
+h3{
+    color:#707070;
+    font-style: italic;
+    font-size: 34px;
+    font-weight: lighter;    
+}
+
+.oi{
+    color:#707070;
+    font-size: 21px;
+    padding: 2em 0;
+}
+
+
+
+.objetivo{
+    width: 100%;
+    background-color: #F2F2F2;
+    padding: 3em 0;
+}
+
+.objetivo h2{
+    width: 73%;
+    margin: auto 0 1em auto;
+    font-family:"Roboto",sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+    color:#707070;
+}
+
+.card1{
+    width: 73%;
+    margin:auto 0 auto auto;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card1 p{
+    width: 75%;
+}
+
+.card1 .line{
+  width: 8px;
+  background-color: #000000;
+  height: 75px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.card1 p{
+    font-size: 21px;
+    font-weight: bold;
+    color:#707070;
+}
+
+.formacion{
+    width: 100%;
+    background-color: #DEDEDE;
+    padding: 3em 0;
+}
+
+.formacion h2{
+    width: 73%;
+    font-family:"Roboto",sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+    color:#707070;
+    margin: auto 0 1em auto;
+}
+
+.card2{
+    width: 73%;
+    margin:auto 0 auto auto;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.card2 .line2{
+  width: 8px;
+  background-color: #000000;
+  height: 75px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.card2 p{
+    width: 75%;
+}
+
+.titulo{
+    font-family:"Roboto",sans-serif;
+    font-size: 21px;
+    font-weight:bolder;
+    color:#707070;  
+}
+
+
+.universidad{
+    font-family:"Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color:#707070;
+}
+
+
+.experiencia{
+    width: 100%;
+    background-color: #434343;
+    padding: 3em 0;
+}
+
+
+.experiencia h2{
+    width: 73%;
+    font-family:"Roboto",sans-serif;
+    font-size: 50px;
+    color:#999999;
+    margin: auto 0 1em auto;
+    font-weight: lighter;
+}
+
+.card3{
+    width: 73%;
+    margin:auto 0 auto auto;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.card3 .line3{
+    width: 8px;
+    background-color: #ffffff;
+    height: 75px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.card3 p{
+    width: 75%;
+}
+
+.fecha{
+    font-family:"Roboto",sans-serif;
+    font-size: 13px;
+    font-weight:bold;
+    color:#999999;
+}
+
+.cargo{
+    font-family:"Roboto",sans-serif;
+    font-size: 21px;
+    font-weight: bolder;
+    color:#999999;
+    
+}
+
+.empresa{
+    font-family:"Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color:#999999;  
+}
+
+.projetos{
+    width: 100%;
+    background-color: #cccccc;
+    padding: 2em 0;
+}
+
+.projetos .subtitulo{
+    font-family:"Roboto",sans-serif;
+    font-size: 50px;
+    color:#707070;
+}
+
+.projetos h2{
+    font-family:"Roboto", sans-serif;
+    font-size: 21px;
+    font-weight: lighter;
+    color:#707070;
+    margin: auto auto auto 28%;
+}
+
+.contenedor-projetos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 3em;
+}
+
+.projetos p{
+    font-size: 13px;
+    font-weight: normal;
+    color:#707070;   
+    width: 90%;
+    margin: 1em auto;
+}
+
+.card4{
+    width: 20%;
+    background-color: #DEDEDE;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.card4 h2{
+    width: 90%;
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card4 img{
+    width: 100%;
+}
+
+.card4 .media{
+    height: 200px;
+    
+}
+
+.video{
+    width: 100%;
+    margin: auto;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.btns a{
+   background-color: #585858 ;
+   border:none;
+   border-radius: 5px;
+   color: #ffffff;
+   padding: 0.3em 0.8em;
+   text-decoration: none;
+   font-size: 14px;
+   margin: 0 1px;
+}
+
+footer{
+    width: 100%;
+    background-color: #000000;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 0;
+}
+
+.footer_text,.footer_form{
+    width: 25%;
+}
+
+.footer_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #707070;
+    height: 300px;
+}
+
+.footer_text h2{
+    font-family:"Roboto",sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+    color:#707070;
+}
+
+.footer_text .redes_sociales{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_text .redes_sociales .rede{
+  width: 58px; 
+  border-radius: 50%; 
+  border:solid 1px #ffffff; 
+}
+
+.footer_text .redes_sociales .rede img{
+    width: 100% 
+}
+
+.footer_form form{
+      display: flex;
+      flex-direction: column;  
+      padding-top: 30px;
+}
+
+.footer_form form label{
+    color:#ffffff;
+    font-size: 13px;
+}
+
+.footer_form form input{
+    width:100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.footer_form form .mensagem{
+    height: 80px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+
+}
+
+.footer_form form .error {
+	display:none;
+	margin-top: 20px;
+	border-radius: 3px;
+	background: #ce1818;
+	color: #fff;
+	padding: 15px 10px;
+    padding-left: 40px;
+    font-family: "Roboto", sans-serif;
+}
+
+.footer_form form .btn{
+    width: 40%;
+    margin:auto;
+    background-color: #585858;
+    color:#ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    cursor:pointer;
+}
+
+.footer_form form .btn:hover{
+    background-color:#787878 ;
+}
+
+@media(max-width:800px){
+
+    .perfil{
+        flex-direction: column;
+   }
+
+    .foto_perfil, .descripcion{
+        width: 70%;
+        margin: auto;
+    }
+    .oi{
+        font-size: 18px;
+    }
+
+    .objetivo h2{
+        width: 80%;
+        margin: 0px auto 50px;
+    }
+
+    .objetivo .card1{
+        width:90% ;
+    }
+
+    .formacion h2{
+        width: 80%;
+        margin: 0px auto 50px;
+    }
+
+    .formacion .card2{
+        width:90% ;
+    }
+   
+
+    .card1 p{
+        font-size:18px ;
+    }
+
+    .experiencia h2{
+        width:90% ;
+    }
+
+    .experiencia .card3{
+        width:90% ; 
+    }
+
+    .experiencia .cargo{
+        font-size: 18px;
+    }
+
+    .projetos h2{
+        width: 90%;
+        margin:0 auto;
+        text-align: center;
+    }
+
+
+    .contenedor-projetos{
+        flex-wrap: wrap;
+    }
+
+    .card4{
+        width: 45%;
+        margin: 1em;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+    
+    .footer_text,.footer_form{
+        width: 60%;
+        margin: auto;
+    }
+
+    
+}
+
+@media(max-width:680px){
+
+.oi{
+    font-size: 16px;
+}
+
+.experiencia .cargo{
+    font-size: 16px;
+}
+    .card4{
+        width: 90%;
+    }
+
+    .footer_text,.footer_form{
+        width: 90%;
+    }
+
+   .contenedor_menu{
+       display:none;
+   }
+   
+    .mobile{
+        display:block;
+        width: 40px;
+        margin: auto 1em auto auto;
+    }
+
+    .mobile img{
+        width: 100%;
+    }
+
+    nav .minifoto{
+        display: none;
+    }
+
+    .foto1{ 
+        margin: -40px auto auto auto;
+    }
+
+    .card1 p{
+        font-size:16px ;
+    }
+
+        
+}
+
