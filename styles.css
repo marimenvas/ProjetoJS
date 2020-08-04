@@ -332,6 +332,49 @@ h3{
    margin: 0 1px;
 }
 
+.contenido{
+    width: 100%;
+    background-color: #434343;
+    padding: 3em 0;
+}
+
+.contenido h2{
+    width: 73%;
+    font-family:"Roboto",sans-serif;
+    font-size: 50px;
+    color:#999999;
+    margin: auto 0 1em auto;
+    font-weight: lighter;
+
+}
+
+.contenido .cardcontenido{
+    display: flex;
+    justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.contenido .cardcontenido .direcciones{
+	font-size: 25px;
+    color: #999999;
+    text-decoration-color: ;
+}
+
+.contenido .ul {
+    font-family:"Roboto",sans-serif;
+    font-size: 25px;
+    color: #999999;
+
+}
+
+a{
+    color:#999999;
+    }
+a:hover{
+    color:#ffffff;
+    }
+
+
 footer{
     width: 100%;
     background-color: #000000;
