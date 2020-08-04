@@ -354,22 +354,49 @@ h3{
 	flex-wrap: wrap;
 }
 
-.contenido .cardcontenido .direcciones{
-	font-size: 25px;
-    color: #999999;
-    text-decoration-color: ;
+#contenido{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    flex-wrap:wrap;
 }
 
-.contenido .ul {
-    font-family:"Roboto",sans-serif;
-    font-size: 25px;
-    color: #999999;
+#contenido .line3{
+    width: 8px;
+    background-color: #ffffff;
+    height: 75px;
+    border-radius: 5px;
+    margin-left: 25%;
+    justify-content: space-between;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+#contenido .card{
+    width: 10%;
+    margin-left: 30%;
+    padding-right: 10%;
 
 }
+
 
 a{
+    font-family: "Roboto";
+    font-size: 21px;
+    font-stretch: semi-condensed;
     color:#999999;
+    font-weight: 500;
     }
+
+a:link{
+    font-family: "Roboto";
+    text-decoration:none;
+    color:#999999;
+} 
+
+
 a:hover{
     color:#ffffff;
     }
