@@ -15,10 +15,10 @@
         <img src="images/foto3.png" alt= "logo nela"/></div>
         <div class="contenedor_menu">
             <ul class="menu">
-              <li>INICIO </li>             
-              <li>SOBRE MIM</li>              
-              <li>MEUS TRABALHOS</li>
-              <li>CONTATE-ME</li>
+              <li><a href="#inicio">INICIO</a></li>             
+              <li><a href="#sobre mim">SOBRE MIM</a></li>              
+              <li><a href="#meus trabalhos">MEUS TRABALHOS</a></li>
+              <li><a href="#contacteme">CONTATE-ME</a></li>
             </ul>
           </div>
           <div class="mobile">
@@ -33,7 +33,7 @@
       </header>
       <main>
 
-        <section class="perfil">
+        <section id="inicio" class="perfil">
           <div class="foto_perfil">
             <div class="foto">
             <img src="images/retrato2.png" alt='logo logo nela'/>
@@ -54,7 +54,7 @@
 
         <section>
           <div class="objetivo">
-            <h2> Objetivo Profissional</h2>
+            <h2 id="sobre mim"> Objetivo Profissional</h2>
 
           <div class="card1">
               <div class="line"></div>
@@ -109,7 +109,7 @@
         <section>
           <div class="experiencia">
             <h2> Experiência</h2>
-<div class="contenedor3">
+          <div class="contenedor3"></div>
           <div class="card3">
             <div class="line3"></div>
             <div>
@@ -144,7 +144,7 @@
 
         <section>
           <div class="projetos">
-          <h2 class="subtitulo">Projetos</h2>
+          <h2 id="meus trabalhos" class="subtitulo">Projetos</h2>
 
           <div class="contenedor-projetos">
 
@@ -204,10 +204,16 @@
         </section> 
         
         <section>
-          <div class="contenido">
+          <div class="repositorio">
             <h2> Projetos no Repositório GitHub</h2>
-            <div id="contenido" class="cardcontenido">
+
+            <div id="contenido">
               <div class="line3"></div>
+                <div>
+                  <div class="card">
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -231,9 +237,10 @@
             <a href="https://twitter.com/marimenvas" target="_blank" rel ="noopener"><img src="images/TWITER.png" alt="icono_twiter"/></a>
           </div>
         </div>
+        <a id= "voltar" href="#inicio">Voltar para acima</a>
       </div>
 
-      <div class="footer_form">
+      <div id="contacteme"class="footer_form">
         <form action="" class="formulario" id ="formulario" name="formulario">
           <label for="nome">NOME</label>
           <input type="text" name="nome">
